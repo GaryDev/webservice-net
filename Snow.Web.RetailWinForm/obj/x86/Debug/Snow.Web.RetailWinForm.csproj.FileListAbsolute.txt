@@ -1,0 +1,8 @@
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailWinForm\bin\Debug\Snow.Web.RetailWinForm.exe
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailWinForm\bin\Debug\Snow.Web.RetailWinForm.pdb
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailWinForm\obj\x86\Debug\Snow.Web.RetailWinForm.Properties.Resources.resources
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailWinForm\obj\x86\Debug\Snow.Web.RetailWinForm.csproj.GenerateResource.Cache
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailWinForm\obj\x86\Debug\Snow.Web.RetailWinForm.exe
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailWinForm\obj\x86\Debug\Snow.Web.RetailWinForm.pdb
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailWinForm\bin\Debug\Snow.Web.RetailWinForm.exe.config
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailWinForm\obj\x86\Debug\Snow.Web.RetailWinForm.FrmMain.resources

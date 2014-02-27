@@ -1,0 +1,9 @@
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailServiceLib\bin\Debug\Snow.Web.RetailServiceLib.dll
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailServiceLib\bin\Debug\Snow.Web.RetailServiceLib.pdb
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailServiceLib\obj\Debug\Snow.Web.RetailServiceLib.dll
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailServiceLib\obj\Debug\Snow.Web.RetailServiceLib.pdb
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailServiceLib\bin\Debug\Snow.Web.RetailServiceController.dll
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailServiceLib\bin\Debug\Snow.Web.RetailServiceBLL.dll
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailServiceLib\bin\Debug\Snow.Web.RetailServiceController.pdb
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailServiceLib\bin\Debug\Snow.Web.RetailServiceBLL.pdb
+E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailServiceLib\obj\Debug\Snow.Web.RetailServiceLib.csprojResolveAssemblyReference.cache
