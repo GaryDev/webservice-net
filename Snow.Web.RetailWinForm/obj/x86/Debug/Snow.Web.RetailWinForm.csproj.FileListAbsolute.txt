@@ -6,3 +6,14 @@ E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailWinForm\obj\x86\Debug\Snow.W
 E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailWinForm\obj\x86\Debug\Snow.Web.RetailWinForm.pdb
 E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailWinForm\bin\Debug\Snow.Web.RetailWinForm.exe.config
 E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailWinForm\obj\x86\Debug\Snow.Web.RetailWinForm.FrmMain.resources
+D:\GIT\webservice-net\Snow.Web.RetailWinForm\bin\Debug\Snow.Web.RetailWinForm.exe.config
+D:\GIT\webservice-net\Snow.Web.RetailWinForm\obj\x86\Debug\Snow.Web.RetailWinForm.exe
+D:\GIT\webservice-net\Snow.Web.RetailWinForm\obj\x86\Debug\Snow.Web.RetailWinForm.pdb
+D:\GIT\webservice-net\Snow.Web.RetailWinForm\bin\Debug\Snow.Web.RetailWinForm.exe
+D:\GIT\webservice-net\Snow.Web.RetailWinForm\bin\Debug\Snow.Web.RetailWinForm.pdb
+D:\GIT\webservice-net\Snow.Web.RetailWinForm\bin\Debug\Snow.Web.RetailClientLib.dll
+D:\GIT\webservice-net\Snow.Web.RetailWinForm\bin\Debug\Snow.Web.RetailClientLib.pdb
+D:\GIT\webservice-net\Snow.Web.RetailWinForm\obj\x86\Debug\Snow.Web.RetailWinForm.csprojResolveAssemblyReference.cache
+D:\GIT\webservice-net\Snow.Web.RetailWinForm\obj\x86\Debug\Snow.Web.RetailWinForm.FrmMain.resources
+D:\GIT\webservice-net\Snow.Web.RetailWinForm\obj\x86\Debug\Snow.Web.RetailWinForm.Properties.Resources.resources
+D:\GIT\webservice-net\Snow.Web.RetailWinForm\obj\x86\Debug\Snow.Web.RetailWinForm.csproj.GenerateResource.Cache

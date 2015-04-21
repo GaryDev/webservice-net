@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 
 namespace Snow.Web.RetailService
 {
-    [DataContract(Namespace = "http://snow.org/retailservice/2014/02/27/")]
+    [DataContract(Namespace = "http://snow.org/retailservice/datacontract/2014/02/27/", Name = "OpenSessionRequest")]
     public class OpenSessionRequest
     {
         [DataMember(Name = "LoginId", Order = 0)]
@@ -15,7 +15,7 @@ namespace Snow.Web.RetailService
         public string ComputerName { get; set; }
     }
 
-    [DataContract(Namespace = "http://snow.org/retailservice/2014/02/27/")]
+    [DataContract(Namespace = "http://snow.org/retailservice/datacontract/2014/02/27/", Name = "OpenSessionResponse")]
     public class OpenSessionResponse
     {
         [DataMember(Name = "SessionId", Order = 0)]

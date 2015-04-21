@@ -1,0 +1,1 @@
+﻿<% @ServiceHost Language=C# Debug="true" Factory="Snow.Web.ServiceExtension.FlatWsdlServiceHostFactory" Service="Snow.Web.RetailService.RetailServiceImpl" %>

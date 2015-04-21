@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Omu.ValueInjecter">
+      <HintPath>..\DLLs\Omu.ValueInjecter.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
@@ -42,9 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FaultContracts\WebFault.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RequestResponse\OpenSession.cs" />
     <Compile Include="RetailServiceController.cs" />
+    <Compile Include="Utils\Mapper.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Snow.Web.RetailServiceBLL\Snow.Web.RetailServiceBLL.csproj">
@@ -52,6 +57,7 @@
       <Name>Snow.Web.RetailServiceBLL</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

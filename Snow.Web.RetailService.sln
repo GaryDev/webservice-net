@@ -35,6 +35,43 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "retailservice", "retailserv
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snow.Web.ServiceExtension", "Snow.Web.ServiceExtension\Snow.Web.ServiceExtension.csproj", "{7B327F7A-AB16-4272-9161-CBAAB385CA36}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "retailservice.rest", "retailservice.rest\", "{BAA6CB0E-1E2D-4BDF-8F68-920C6BF26DE3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{7B327F7A-AB16-4272-9161-CBAAB385CA36}|Snow.Web.ServiceExtension.dll;{32B63907-CF65-41F8-BEDF-E2F0557ACFB0}|Snow.Web.RetailSerivceDAL.dll;{DC2B09B4-BCFD-4A0F-A5DA-3893F544B267}|Snow.Web.RetailServiceBLL.dll;{1330809C-6F5C-4235-818F-857DDE33266B}|Snow.Web.RetailServiceController.dll;{753C4789-8314-4E26-ACD1-0158931550AB}|Snow.Web.RetailServiceLib.REST.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/retailservice.rest"
+		Debug.AspNetCompiler.PhysicalPath = "retailservice.rest\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\retailservice.rest\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/retailservice.rest"
+		Release.AspNetCompiler.PhysicalPath = "retailservice.rest\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\retailservice.rest\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54275"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snow.Web.RetailServiceLib.REST", "Snow.Web.RetailServiceLib.REST\Snow.Web.RetailServiceLib.REST.csproj", "{753C4789-8314-4E26-ACD1-0158931550AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLLs", "DLLs", "{B5A5778A-7C4C-4DED-8B80-304012A861EA}"
+	ProjectSection(SolutionItems) = preProject
+		DLLs\log4net.dll = DLLs\log4net.dll
+		DLLs\log4net.xml = DLLs\log4net.xml
+		DLLs\Microsoft.Practices.EnterpriseLibrary.Common.dll = DLLs\Microsoft.Practices.EnterpriseLibrary.Common.dll
+		DLLs\Microsoft.Practices.EnterpriseLibrary.Data.dll = DLLs\Microsoft.Practices.EnterpriseLibrary.Data.dll
+		DLLs\Microsoft.Practices.ObjectBuilder.dll = DLLs\Microsoft.Practices.ObjectBuilder.dll
+		DLLs\Omu.ValueInjecter.dll = DLLs\Omu.ValueInjecter.dll
+		DLLs\Omu.ValueInjecter.XML = DLLs\Omu.ValueInjecter.XML
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -115,6 +152,36 @@ Global
 		{DABE224D-9651-4909-9FCD-54EFEF009D8E}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{DABE224D-9651-4909-9FCD-54EFEF009D8E}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
 		{DABE224D-9651-4909-9FCD-54EFEF009D8E}.Release|x86.ActiveCfg = Debug|Any CPU
+		{7B327F7A-AB16-4272-9161-CBAAB385CA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B327F7A-AB16-4272-9161-CBAAB385CA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B327F7A-AB16-4272-9161-CBAAB385CA36}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7B327F7A-AB16-4272-9161-CBAAB385CA36}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7B327F7A-AB16-4272-9161-CBAAB385CA36}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7B327F7A-AB16-4272-9161-CBAAB385CA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B327F7A-AB16-4272-9161-CBAAB385CA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B327F7A-AB16-4272-9161-CBAAB385CA36}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7B327F7A-AB16-4272-9161-CBAAB385CA36}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7B327F7A-AB16-4272-9161-CBAAB385CA36}.Release|x86.ActiveCfg = Release|Any CPU
+		{BAA6CB0E-1E2D-4BDF-8F68-920C6BF26DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA6CB0E-1E2D-4BDF-8F68-920C6BF26DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA6CB0E-1E2D-4BDF-8F68-920C6BF26DE3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BAA6CB0E-1E2D-4BDF-8F68-920C6BF26DE3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BAA6CB0E-1E2D-4BDF-8F68-920C6BF26DE3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BAA6CB0E-1E2D-4BDF-8F68-920C6BF26DE3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA6CB0E-1E2D-4BDF-8F68-920C6BF26DE3}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BAA6CB0E-1E2D-4BDF-8F68-920C6BF26DE3}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BAA6CB0E-1E2D-4BDF-8F68-920C6BF26DE3}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BAA6CB0E-1E2D-4BDF-8F68-920C6BF26DE3}.Release|x86.ActiveCfg = Debug|Any CPU
+		{753C4789-8314-4E26-ACD1-0158931550AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{753C4789-8314-4E26-ACD1-0158931550AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{753C4789-8314-4E26-ACD1-0158931550AB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{753C4789-8314-4E26-ACD1-0158931550AB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{753C4789-8314-4E26-ACD1-0158931550AB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{753C4789-8314-4E26-ACD1-0158931550AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{753C4789-8314-4E26-ACD1-0158931550AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{753C4789-8314-4E26-ACD1-0158931550AB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{753C4789-8314-4E26-ACD1-0158931550AB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{753C4789-8314-4E26-ACD1-0158931550AB}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

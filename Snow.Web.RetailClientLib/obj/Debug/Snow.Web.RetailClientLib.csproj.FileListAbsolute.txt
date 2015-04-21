@@ -2,3 +2,7 @@ E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailClientLib\bin\Debug\Snow.Web
 E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailClientLib\bin\Debug\Snow.Web.RetailClientLib.pdb
 E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailClientLib\obj\Debug\Snow.Web.RetailClientLib.dll
 E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailClientLib\obj\Debug\Snow.Web.RetailClientLib.pdb
+D:\GIT\webservice-net\Snow.Web.RetailClientLib\bin\Debug\Snow.Web.RetailClientLib.dll
+D:\GIT\webservice-net\Snow.Web.RetailClientLib\bin\Debug\Snow.Web.RetailClientLib.pdb
+D:\GIT\webservice-net\Snow.Web.RetailClientLib\obj\Debug\Snow.Web.RetailClientLib.dll
+D:\GIT\webservice-net\Snow.Web.RetailClientLib\obj\Debug\Snow.Web.RetailClientLib.pdb

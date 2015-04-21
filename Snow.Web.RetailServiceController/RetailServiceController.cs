@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Snow.Web.Controller
+namespace Snow.Web.RetailServiceController
 {
     public class RetailServiceController
     {

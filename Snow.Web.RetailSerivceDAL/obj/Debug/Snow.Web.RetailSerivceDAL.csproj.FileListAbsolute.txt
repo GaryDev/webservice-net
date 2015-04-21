@@ -2,3 +2,7 @@ E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailSerivceDAL\bin\Debug\Snow.We
 E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailSerivceDAL\bin\Debug\Snow.Web.RetailSerivceDAL.pdb
 E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailSerivceDAL\obj\Debug\Snow.Web.RetailSerivceDAL.dll
 E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailSerivceDAL\obj\Debug\Snow.Web.RetailSerivceDAL.pdb
+D:\GIT\webservice-net\Snow.Web.RetailSerivceDAL\bin\Debug\Snow.Web.RetailSerivceDAL.dll
+D:\GIT\webservice-net\Snow.Web.RetailSerivceDAL\bin\Debug\Snow.Web.RetailSerivceDAL.pdb
+D:\GIT\webservice-net\Snow.Web.RetailSerivceDAL\obj\Debug\Snow.Web.RetailSerivceDAL.dll
+D:\GIT\webservice-net\Snow.Web.RetailSerivceDAL\obj\Debug\Snow.Web.RetailSerivceDAL.pdb
