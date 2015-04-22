@@ -8,7 +8,7 @@
     <ProjectGuid>{DC2B09B4-BCFD-4A0F-A5DA-3893F544B267}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Snow.Web.RetailServiceBLL</RootNamespace>
+    <RootNamespace>Snow.Web.BLL</RootNamespace>
     <AssemblyName>Snow.Web.RetailServiceBLL</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RetailServiceBLL.cs" />
     <Compile Include="ServiceContext.cs" />
@@ -49,6 +50,10 @@
     <ProjectReference Include="..\Snow.Web.RetailSerivceDAL\Snow.Web.RetailSerivceDAL.csproj">
       <Project>{32B63907-CF65-41F8-BEDF-E2F0557ACFB0}</Project>
       <Name>Snow.Web.RetailSerivceDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Snow.Web.RetailServiceDTO\Snow.Web.RetailServiceDTO.csproj">
+      <Project>{357F30A9-35FD-463C-A8D3-D9C2E2A5B346}</Project>
+      <Name>Snow.Web.RetailServiceDTO</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -4,5 +4,11 @@ E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailSerivceDAL\obj\Debug\Snow.We
 E:\dev\C#.NET\Snow.Web.RetailService\Snow.Web.RetailSerivceDAL\obj\Debug\Snow.Web.RetailSerivceDAL.pdb
 D:\GIT\webservice-net\Snow.Web.RetailSerivceDAL\bin\Debug\Snow.Web.RetailSerivceDAL.dll
 D:\GIT\webservice-net\Snow.Web.RetailSerivceDAL\bin\Debug\Snow.Web.RetailSerivceDAL.pdb
+D:\GIT\webservice-net\Snow.Web.RetailSerivceDAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\GIT\webservice-net\Snow.Web.RetailSerivceDAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\GIT\webservice-net\Snow.Web.RetailSerivceDAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\GIT\webservice-net\Snow.Web.RetailSerivceDAL\bin\Debug\Snow.Web.RetailServiceDTO.dll
+D:\GIT\webservice-net\Snow.Web.RetailSerivceDAL\bin\Debug\Snow.Web.RetailServiceDTO.pdb
+D:\GIT\webservice-net\Snow.Web.RetailSerivceDAL\obj\Debug\Snow.Web.RetailSerivceDAL.csprojResolveAssemblyReference.cache
 D:\GIT\webservice-net\Snow.Web.RetailSerivceDAL\obj\Debug\Snow.Web.RetailSerivceDAL.dll
 D:\GIT\webservice-net\Snow.Web.RetailSerivceDAL\obj\Debug\Snow.Web.RetailSerivceDAL.pdb

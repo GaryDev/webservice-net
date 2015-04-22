@@ -17,5 +17,13 @@ namespace Snow.Web.RetailService
             BodyStyle = WebMessageBodyStyle.WrappedRequest,
             UriTemplate = "open-session")]
         OpenSessionResponse OpenSession(OpenSessionRequest request);
+
+        [OperationContract(Name = "GetCustomer")]
+        [WebInvoke(Method = "POST",
+            ResponseFormat = WebMessageFormat.Json,
+            RequestFormat = WebMessageFormat.Json,
+            BodyStyle = WebMessageBodyStyle.WrappedRequest,
+            UriTemplate = "get-customer")]
+        GetCustomerResponse GetCustomer(GetCustomerRequest request);
     }
 }

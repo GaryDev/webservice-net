@@ -8,7 +8,7 @@
     <ProjectGuid>{1330809C-6F5C-4235-818F-857DDE33266B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Snow.Web.RetailServiceController</RootNamespace>
+    <RootNamespace>Snow.Web.Controller</RootNamespace>
     <AssemblyName>Snow.Web.RetailServiceController</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -45,8 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customer\Customer.cs" />
+    <Compile Include="Customer\CustomerList.cs" />
     <Compile Include="FaultContracts\WebFault.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestResponse\GetCustomer.cs" />
     <Compile Include="RequestResponse\OpenSession.cs" />
     <Compile Include="RetailServiceController.cs" />
     <Compile Include="Utils\Mapper.cs" />
@@ -55,6 +58,10 @@
     <ProjectReference Include="..\Snow.Web.RetailServiceBLL\Snow.Web.RetailServiceBLL.csproj">
       <Project>{DC2B09B4-BCFD-4A0F-A5DA-3893F544B267}</Project>
       <Name>Snow.Web.RetailServiceBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Snow.Web.RetailServiceDTO\Snow.Web.RetailServiceDTO.csproj">
+      <Project>{357F30A9-35FD-463C-A8D3-D9C2E2A5B346}</Project>
+      <Name>Snow.Web.RetailServiceDTO</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

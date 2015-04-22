@@ -12,7 +12,7 @@ namespace Snow.Web.RetailService
                     InstanceContextMode = InstanceContextMode.PerCall)]
     public class RetailServiceImpl : IRetailService
     {
-        private RetailServiceController.RetailServiceController _serviceController;
+        private Controller.RetailServiceController _serviceController;
 
         public RetailServiceImpl()
         {
@@ -29,12 +29,17 @@ namespace Snow.Web.RetailService
                     clientTime = httpRequestMessageProperty.Headers["ClientTime"];
             }
 
-            this._serviceController = new RetailServiceController.RetailServiceController(sessionId, clientTime);
+            this._serviceController = new Controller.RetailServiceController(sessionId, clientTime);
         }
         
         public OpenSessionResponse OpenSession(OpenSessionRequest request)
         {
             return _serviceController.OpenSession(request);
+        }
+
+        public GetCustomerResponse GetCustomer(GetCustomerRequest request)
+        {
+            return _serviceController.GetCustomer(request);
         }
     }
 }

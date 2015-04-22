@@ -11,5 +11,8 @@ namespace Snow.Web.RetailService
     {
         [OperationContract(Name="OpenSession")]
         OpenSessionResponse OpenSession(OpenSessionRequest request);
+
+        [OperationContract(Name = "GetCustomer")]
+        GetCustomerResponse GetCustomer(GetCustomerRequest request);
     }
 }
