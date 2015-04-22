@@ -47,9 +47,9 @@
     <Compile Include="SessionContext.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Snow.Web.RetailSerivceDAL\Snow.Web.RetailSerivceDAL.csproj">
+    <ProjectReference Include="..\Snow.Web.RetailSerivceDAL\Snow.Web.RetailServiceDAL.csproj">
       <Project>{32B63907-CF65-41F8-BEDF-E2F0557ACFB0}</Project>
-      <Name>Snow.Web.RetailSerivceDAL</Name>
+      <Name>Snow.Web.RetailServiceDAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Snow.Web.RetailServiceDTO\Snow.Web.RetailServiceDTO.csproj">
       <Project>{357F30A9-35FD-463C-A8D3-D9C2E2A5B346}</Project>

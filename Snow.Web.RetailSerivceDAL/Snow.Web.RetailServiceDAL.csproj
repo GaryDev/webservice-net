@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Snow.Web.DAL</RootNamespace>
-    <AssemblyName>Snow.Web.RetailSerivceDAL</AssemblyName>
+    <AssemblyName>Snow.Web.RetailServiceDAL</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snow.Web.RetailClientLib", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snow.Web.RetailServiceBLL", "Snow.Web.RetailServiceBLL\Snow.Web.RetailServiceBLL.csproj", "{DC2B09B4-BCFD-4A0F-A5DA-3893F544B267}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snow.Web.RetailSerivceDAL", "Snow.Web.RetailSerivceDAL\Snow.Web.RetailSerivceDAL.csproj", "{32B63907-CF65-41F8-BEDF-E2F0557ACFB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snow.Web.RetailServiceDAL", "Snow.Web.RetailSerivceDAL\Snow.Web.RetailServiceDAL.csproj", "{32B63907-CF65-41F8-BEDF-E2F0557ACFB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snow.Web.RetailWinForm", "Snow.Web.RetailWinForm\Snow.Web.RetailWinForm.csproj", "{14070012-897E-4C19-8B6D-17EB3F377C79}"
 EndProject
