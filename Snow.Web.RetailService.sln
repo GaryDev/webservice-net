@@ -16,7 +16,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "retailservice", "retailservice\", "{DABE224D-9651-4909-9FCD-54EFEF009D8E}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		ProjectReferences = "{5BF2C07B-AB84-4AEE-BC5D-B39C49ADAAE9}|Snow.Web.RetailServiceLib.dll;{1330809C-6F5C-4235-818F-857DDE33266B}|Snow.Web.RetailServiceController.dll;{DC2B09B4-BCFD-4A0F-A5DA-3893F544B267}|Snow.Web.RetailServiceBLL.dll;{32B63907-CF65-41F8-BEDF-E2F0557ACFB0}|Snow.Web.RetailSerivceDAL.dll;{357F30A9-35FD-463C-A8D3-D9C2E2A5B346}|Snow.Web.RetailServiceDTO.dll;"
+		ProjectReferences = "{5BF2C07B-AB84-4AEE-BC5D-B39C49ADAAE9}|Snow.Web.RetailServiceLib.dll;{1330809C-6F5C-4235-818F-857DDE33266B}|Snow.Web.RetailServiceController.dll;{DC2B09B4-BCFD-4A0F-A5DA-3893F544B267}|Snow.Web.RetailServiceBLL.dll;{32B63907-CF65-41F8-BEDF-E2F0557ACFB0}|Snow.Web.RetailServiceDAL.dll;{357F30A9-35FD-463C-A8D3-D9C2E2A5B346}|Snow.Web.RetailServiceDTO.dll;{F8AFD2DF-C483-4B57-A7F6-896FF1C91DF8}|Snow.Web.DataProvider.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/retailservice"
 		Debug.AspNetCompiler.PhysicalPath = "retailservice\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\retailservice\"
@@ -40,7 +40,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "retailservice.rest", "retailservice.rest\", "{BAA6CB0E-1E2D-4BDF-8F68-920C6BF26DE3}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		ProjectReferences = "{7B327F7A-AB16-4272-9161-CBAAB385CA36}|Snow.Web.ServiceExtension.dll;{32B63907-CF65-41F8-BEDF-E2F0557ACFB0}|Snow.Web.RetailSerivceDAL.dll;{DC2B09B4-BCFD-4A0F-A5DA-3893F544B267}|Snow.Web.RetailServiceBLL.dll;{1330809C-6F5C-4235-818F-857DDE33266B}|Snow.Web.RetailServiceController.dll;{753C4789-8314-4E26-ACD1-0158931550AB}|Snow.Web.RetailServiceLib.REST.dll;{357F30A9-35FD-463C-A8D3-D9C2E2A5B346}|Snow.Web.RetailServiceDTO.dll;"
+		ProjectReferences = "{7B327F7A-AB16-4272-9161-CBAAB385CA36}|Snow.Web.ServiceExtension.dll;{32B63907-CF65-41F8-BEDF-E2F0557ACFB0}|Snow.Web.RetailServiceDAL.dll;{DC2B09B4-BCFD-4A0F-A5DA-3893F544B267}|Snow.Web.RetailServiceBLL.dll;{1330809C-6F5C-4235-818F-857DDE33266B}|Snow.Web.RetailServiceController.dll;{753C4789-8314-4E26-ACD1-0158931550AB}|Snow.Web.RetailServiceLib.REST.dll;{357F30A9-35FD-463C-A8D3-D9C2E2A5B346}|Snow.Web.RetailServiceDTO.dll;{F8AFD2DF-C483-4B57-A7F6-896FF1C91DF8}|Snow.Web.DataProvider.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/retail-service.apphb.com"
 		Debug.AspNetCompiler.PhysicalPath = "retailservice.rest\"
 		Debug.AspNetCompiler.TargetPath = "..\retail-service.apphb.com\"
@@ -73,6 +73,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLLs", "DLLs", "{B5A5778A-7
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snow.Web.RetailServiceDTO", "Snow.Web.RetailServiceDTO\Snow.Web.RetailServiceDTO.csproj", "{357F30A9-35FD-463C-A8D3-D9C2E2A5B346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snow.Web.DataProvider", "Snow.Web.DataProvider\Snow.Web.DataProvider.csproj", "{F8AFD2DF-C483-4B57-A7F6-896FF1C91DF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snow.Web.DataProvider.MSSQL", "Snow.Web.DataProvider.MSSQL\Snow.Web.DataProvider.MSSQL.csproj", "{6BBCB892-198A-43C7-8C31-9649E63E21CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snow.Web.DataProvider.MYSQL", "Snow.Web.DataProvider.MYSQL\Snow.Web.DataProvider.MYSQL.csproj", "{10024719-441B-4067-A93A-080EB8965AA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -194,6 +200,36 @@ Global
 		{357F30A9-35FD-463C-A8D3-D9C2E2A5B346}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{357F30A9-35FD-463C-A8D3-D9C2E2A5B346}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{357F30A9-35FD-463C-A8D3-D9C2E2A5B346}.Release|x86.ActiveCfg = Release|Any CPU
+		{F8AFD2DF-C483-4B57-A7F6-896FF1C91DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8AFD2DF-C483-4B57-A7F6-896FF1C91DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8AFD2DF-C483-4B57-A7F6-896FF1C91DF8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F8AFD2DF-C483-4B57-A7F6-896FF1C91DF8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F8AFD2DF-C483-4B57-A7F6-896FF1C91DF8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F8AFD2DF-C483-4B57-A7F6-896FF1C91DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8AFD2DF-C483-4B57-A7F6-896FF1C91DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8AFD2DF-C483-4B57-A7F6-896FF1C91DF8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F8AFD2DF-C483-4B57-A7F6-896FF1C91DF8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F8AFD2DF-C483-4B57-A7F6-896FF1C91DF8}.Release|x86.ActiveCfg = Release|Any CPU
+		{6BBCB892-198A-43C7-8C31-9649E63E21CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBCB892-198A-43C7-8C31-9649E63E21CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBCB892-198A-43C7-8C31-9649E63E21CD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6BBCB892-198A-43C7-8C31-9649E63E21CD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6BBCB892-198A-43C7-8C31-9649E63E21CD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6BBCB892-198A-43C7-8C31-9649E63E21CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBCB892-198A-43C7-8C31-9649E63E21CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBCB892-198A-43C7-8C31-9649E63E21CD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6BBCB892-198A-43C7-8C31-9649E63E21CD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6BBCB892-198A-43C7-8C31-9649E63E21CD}.Release|x86.ActiveCfg = Release|Any CPU
+		{10024719-441B-4067-A93A-080EB8965AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10024719-441B-4067-A93A-080EB8965AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10024719-441B-4067-A93A-080EB8965AA8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{10024719-441B-4067-A93A-080EB8965AA8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{10024719-441B-4067-A93A-080EB8965AA8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{10024719-441B-4067-A93A-080EB8965AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10024719-441B-4067-A93A-080EB8965AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10024719-441B-4067-A93A-080EB8965AA8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{10024719-441B-4067-A93A-080EB8965AA8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{10024719-441B-4067-A93A-080EB8965AA8}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

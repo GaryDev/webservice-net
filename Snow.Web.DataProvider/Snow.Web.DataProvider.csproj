@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{32B63907-CF65-41F8-BEDF-E2F0557ACFB0}</ProjectGuid>
+    <ProjectGuid>{F8AFD2DF-C483-4B57-A7F6-896FF1C91DF8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Snow.Web.DataProvider</RootNamespace>
-    <AssemblyName>Snow.Web.RetailServiceDAL</AssemblyName>
+    <AssemblyName>Snow.Web.DataProvider</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,21 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomerDAL.cs" />
-    <Compile Include="DataService.cs" />
+    <Compile Include="DataProvider.cs" />
+    <Compile Include="DataProviderCollection.cs" />
+    <Compile Include="DataProviderSection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProvidersHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Snow.Web.DataProvider\Snow.Web.DataProvider.csproj">
-      <Project>{F8AFD2DF-C483-4B57-A7F6-896FF1C91DF8}</Project>
-      <Name>Snow.Web.DataProvider</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Snow.Web.RetailServiceDTO\Snow.Web.RetailServiceDTO.csproj">
       <Project>{357F30A9-35FD-463C-A8D3-D9C2E2A5B346}</Project>
       <Name>Snow.Web.RetailServiceDTO</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

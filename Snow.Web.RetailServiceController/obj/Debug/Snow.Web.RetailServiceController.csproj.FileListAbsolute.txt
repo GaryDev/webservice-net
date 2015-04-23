@@ -11,13 +11,12 @@ D:\GIT\webservice-net\Snow.Web.RetailServiceController\bin\Debug\Omu.ValueInject
 D:\GIT\webservice-net\Snow.Web.RetailServiceController\bin\Debug\Snow.Web.RetailServiceBLL.dll
 D:\GIT\webservice-net\Snow.Web.RetailServiceController\bin\Debug\Snow.Web.RetailServiceDTO.dll
 D:\GIT\webservice-net\Snow.Web.RetailServiceController\bin\Debug\Snow.Web.RetailServiceDAL.dll
-D:\GIT\webservice-net\Snow.Web.RetailServiceController\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
-D:\GIT\webservice-net\Snow.Web.RetailServiceController\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
-D:\GIT\webservice-net\Snow.Web.RetailServiceController\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\GIT\webservice-net\Snow.Web.RetailServiceController\bin\Debug\Snow.Web.DataProvider.dll
 D:\GIT\webservice-net\Snow.Web.RetailServiceController\bin\Debug\Snow.Web.RetailServiceBLL.pdb
 D:\GIT\webservice-net\Snow.Web.RetailServiceController\bin\Debug\Snow.Web.RetailServiceDTO.pdb
 D:\GIT\webservice-net\Snow.Web.RetailServiceController\bin\Debug\Omu.ValueInjecter.xml
 D:\GIT\webservice-net\Snow.Web.RetailServiceController\bin\Debug\Snow.Web.RetailServiceDAL.pdb
+D:\GIT\webservice-net\Snow.Web.RetailServiceController\bin\Debug\Snow.Web.DataProvider.pdb
 D:\GIT\webservice-net\Snow.Web.RetailServiceController\obj\Debug\Snow.Web.RetailServiceController.csprojResolveAssemblyReference.cache
 D:\GIT\webservice-net\Snow.Web.RetailServiceController\obj\Debug\Snow.Web.RetailServiceController.dll
 D:\GIT\webservice-net\Snow.Web.RetailServiceController\obj\Debug\Snow.Web.RetailServiceController.pdb

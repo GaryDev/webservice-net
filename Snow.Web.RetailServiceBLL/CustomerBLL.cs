@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Snow.Web.DTO;
-using Snow.Web.DAL;
+using Snow.Web.DataProvider;
 
 namespace Snow.Web.BLL
 {

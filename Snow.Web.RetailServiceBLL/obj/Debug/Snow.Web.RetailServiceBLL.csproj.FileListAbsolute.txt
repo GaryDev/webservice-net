@@ -9,11 +9,10 @@ D:\GIT\webservice-net\Snow.Web.RetailServiceBLL\bin\Debug\Snow.Web.RetailService
 D:\GIT\webservice-net\Snow.Web.RetailServiceBLL\bin\Debug\Snow.Web.RetailServiceBLL.pdb
 D:\GIT\webservice-net\Snow.Web.RetailServiceBLL\bin\Debug\Snow.Web.RetailServiceDAL.dll
 D:\GIT\webservice-net\Snow.Web.RetailServiceBLL\bin\Debug\Snow.Web.RetailServiceDTO.dll
-D:\GIT\webservice-net\Snow.Web.RetailServiceBLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
-D:\GIT\webservice-net\Snow.Web.RetailServiceBLL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
-D:\GIT\webservice-net\Snow.Web.RetailServiceBLL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\GIT\webservice-net\Snow.Web.RetailServiceBLL\bin\Debug\Snow.Web.DataProvider.dll
 D:\GIT\webservice-net\Snow.Web.RetailServiceBLL\bin\Debug\Snow.Web.RetailServiceDAL.pdb
 D:\GIT\webservice-net\Snow.Web.RetailServiceBLL\bin\Debug\Snow.Web.RetailServiceDTO.pdb
+D:\GIT\webservice-net\Snow.Web.RetailServiceBLL\bin\Debug\Snow.Web.DataProvider.pdb
 D:\GIT\webservice-net\Snow.Web.RetailServiceBLL\obj\Debug\Snow.Web.RetailServiceBLL.csprojResolveAssemblyReference.cache
 D:\GIT\webservice-net\Snow.Web.RetailServiceBLL\obj\Debug\Snow.Web.RetailServiceBLL.dll
 D:\GIT\webservice-net\Snow.Web.RetailServiceBLL\obj\Debug\Snow.Web.RetailServiceBLL.pdb
