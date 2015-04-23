@@ -68,6 +68,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLLs", "DLLs", "{B5A5778A-7
 		DLLs\Microsoft.Practices.EnterpriseLibrary.Common.dll = DLLs\Microsoft.Practices.EnterpriseLibrary.Common.dll
 		DLLs\Microsoft.Practices.EnterpriseLibrary.Data.dll = DLLs\Microsoft.Practices.EnterpriseLibrary.Data.dll
 		DLLs\Microsoft.Practices.ObjectBuilder.dll = DLLs\Microsoft.Practices.ObjectBuilder.dll
+		C:\Users\xguo\Downloads\9f413465-4d88-3010-9ddd-64048d2de3fd\MySql.Data.dll = C:\Users\xguo\Downloads\9f413465-4d88-3010-9ddd-64048d2de3fd\MySql.Data.dll
 		DLLs\Omu.ValueInjecter.dll = DLLs\Omu.ValueInjecter.dll
 		DLLs\Omu.ValueInjecter.XML = DLLs\Omu.ValueInjecter.XML
 	EndProjectSection
